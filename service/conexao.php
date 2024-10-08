@@ -4,9 +4,9 @@ class usePDO
 {
 
   //Algumas variáveis com dados sobre o Banco. 
-  private $servername = '${{RAILWAY_PRIVATE_DOMAIN}}';
+  private $servername = 'mysql.railway.internal';
   private $username = "root";
-  private $password = '${{MYSQL_ROOT_PASSWORD}}';
+  private $password = 'CVgZGhjUJuIiPEOigtLnORvxGgYHslWY';
   private $dbname = "railway";
   private $instance; // instância de conexão, usada no Singleton
 
